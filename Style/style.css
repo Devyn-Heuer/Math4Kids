@@ -1,0 +1,113 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Luckiest Guy";
+  background-color: rgba(34, 68, 57, 0.664);
+}
+
+.container {
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.63);
+}
+
+.container h1 {
+  float: left;
+  margin-left: 10%;
+  color: aliceblue;
+}
+
+.container ul {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 60%;
+}
+
+.container li {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  padding: 0px 20px;
+}
+
+.container a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.current a::after {
+  content: "_";
+  background-color: aliceblue;
+  font-size: 4px;
+  display: block;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 82% 18%;
+}
+
+.equation {
+  font-size: 67px;
+  background-color: aliceblue;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 15%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.equation h1 {
+  display: inline;
+  padding: 20px;
+  
+}
+
+.answer-options {
+  font-size: 67px;
+  margin-right: 10px;
+}
+
+.answer-options h1 {
+  cursor: pointer;
+  color: antiquewhite;
+  border-radius: 3px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#option1 {
+  background-color: chartreuse;
+  transition: 0.5s;
+}
+
+#option1:hover {
+  color: chartreuse;
+  background-color: white;
+}
+
+#option2 {
+  background-color: rgb(0, 174, 255);
+  transition: 0.5s;
+}
+
+#option2:hover {
+  color: rgb(0, 174, 255);
+  background-color: white;
+}
+
+#option3 {
+  background-color: rgb(255, 8, 0);
+  transition: 0.5s;
+}
+
+#option3:hover {
+  color: rgb(255, 8, 0);
+  background-color: white;
+}
